@@ -1,14 +1,14 @@
 {
-  "name": "get-package-manager",
+  "name": "obtain-package-manager",
   "version": "0.0.0",
   "packageManager": "pnpm@7.1.5",
   "description": "",
   "author": "sudongyuer",
   "license": "MIT",
   "funding": "https://github.com/sponsors/sudongyuer",
-  "homepage": "https://github.com/sudongyuer/ts-starter#readme",
-  "repository": "https://github.com/sudongyuer/ts-starter",
-  "bugs": "https://github.com/sudongyuer/ts-starter/issues",
+  "homepage": "https://github.com/sudongyuer/obtain-package-manager#readme",
+  "repository": "https://github.com/sudongyuer/obtain-package-manager",
+  "bugs": "https://github.com/sudongyuer/obtain-package-manager/issues",
   "keywords": [],
   "exports": {
     ".": {
