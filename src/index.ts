@@ -1,5 +1,6 @@
 import { resolve } from 'path'
 import child_process from 'child_process'
+import { pathExists } from './utils'
 
 export type PM = 'npm' | 'yarn' | 'pnpm'
 export const SEMVER_REGEX = /^\d+.\d+.\d+$/
