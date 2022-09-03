@@ -69,7 +69,7 @@ export function getTypeofLockFile(cwd = '.', cache: Map<any, any>): Promise<PM |
   })
 }
 
-export async function getNpmVersion(pm: PM = 'npm') {
+export async function getPackManagerVersion(pm: PM = 'npm') {
   return exec_async(pm || 'npm', '--version').then(stdout => stdout)
 }
 
