@@ -1,6 +1,6 @@
 {
   "name": "obtain-package-manager",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "packageManager": "pnpm@7.1.5",
   "description": "obtain which package manager you're using (yarn or npm)",
   "author": "sudongyuer",
