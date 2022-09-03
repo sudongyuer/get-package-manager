@@ -1,8 +1,8 @@
-import { getTypeofLockFile, hasGlobalInstallation } from './utils'
+import { clearCache, getPackManagerVersion, getTypeofLockFile, hasGlobalInstallation } from './utils'
 
 const cache = new Map()
 
-const detect = async ({ cwd }: { cwd?: string } = {}) => {
+const getPackageManager = async ({ cwd }: { cwd?: string } = {}) => {
   const type = await getTypeofLockFile(cwd, cache)
   if (type)
     return type
@@ -20,4 +20,4 @@ const detect = async ({ cwd }: { cwd?: string } = {}) => {
   return 'npm'
 }
 
-export { detect }
+export { getPackageManager, getPackManagerVersion, clearCache }
