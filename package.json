@@ -2,14 +2,22 @@
   "name": "obtain-package-manager",
   "version": "0.0.0",
   "packageManager": "pnpm@7.1.5",
-  "description": "",
+  "description": "obtain which package manager you're using (yarn or npm)",
   "author": "sudongyuer",
   "license": "MIT",
   "funding": "https://github.com/sponsors/sudongyuer",
   "homepage": "https://github.com/sudongyuer/obtain-package-manager#readme",
   "repository": "https://github.com/sudongyuer/obtain-package-manager",
   "bugs": "https://github.com/sudongyuer/obtain-package-manager/issues",
-  "keywords": [],
+  "keywords": [
+    "npm",
+    "yarn",
+    "package-manager",
+    "detect",
+    "check",
+    "pnpm",
+    "obtain"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
