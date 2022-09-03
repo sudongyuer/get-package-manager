@@ -20,6 +20,10 @@ const packageManagerVersion = await getPackManagerVersion()// 6.14.4
 clearCache() // clear cache
 ```
 
+## 🌸 Credits
+
+- https://github.com/egoist/detect-package-manager
+
 ## Author
 sudongyuer email:976499226@qq.com
 
