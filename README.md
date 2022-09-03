@@ -19,7 +19,7 @@ clearCache() // clear cache
 
 ## 🌸 Credits
 
-- https://github.com/egoist/detect-package-manager
+- [detect-package-manager](https://github.com/egoist/detect-package-manager)
 
 ## Author
 sudongyuer email:976499226@qq.com
