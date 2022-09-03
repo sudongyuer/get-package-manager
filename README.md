@@ -1,11 +1,8 @@
 # obtain-package-manager
-
-A simple script to obtain a package manager.
+Obtain the package manager you are using.
 
 [![NPM version](https://badge.fury.io/js/obtain-package-manager.png)](https://www.npmjs.com/package/obtain-package-manager)
 
-## Why
-Sometimes you need to install a package manager, but you don't know which one to use. This script will help you to obtain a package manager.
 ## 🚀 Features
 
 - Zero dependencies  
